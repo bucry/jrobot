@@ -10,6 +10,7 @@ import javax.inject.Inject;
  */
 
 @Service
+//@Transactional
 public class DemoService {
 
     @Inject
