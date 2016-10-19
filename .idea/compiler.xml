@@ -22,11 +22,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="core" />
         <module name="machinelearning4j" />
         <module name="website" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="core" target="1.6" />
       <module name="jrobot" target="1.5" />
       <module name="machinelearning4j" target="1.6" />
       <module name="website" target="1.6" />
