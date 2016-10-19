@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/jrobot.iml" filepath="$PROJECT_DIR$/jrobot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/jrobot.iml" filepath="$PROJECT_DIR$/.idea/jrobot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/machinelearning4j/machinelearning4j.iml" filepath="$PROJECT_DIR$/machinelearning4j/machinelearning4j.iml" />
+      <module fileurl="file://$PROJECT_DIR$/website/website.iml" filepath="$PROJECT_DIR$/website/website.iml" />
     </modules>
   </component>
 </project>
