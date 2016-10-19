@@ -1,11 +1,10 @@
 package com.jrobot.website;
 
-import com.u1wan.core.database.HibernateAccess;
-import com.u1wan.core.database.JDBCAccess;
-import com.u1wan.core.web.DefaultWebConfig;
+import com.jrobot.core.database.HibernateAccess;
+import com.jrobot.core.database.JDBCAccess;
+import com.jrobot.core.web.DefaultWebConfig;
 import org.apache.commons.dbcp.BasicDataSource;
 import org.hibernate.SessionFactory;
-import org.hibernate.dialect.MySQL5Dialect;
 import org.hibernate.dialect.PostgreSQL82Dialect;
 import org.springframework.context.annotation.Bean;
 import org.springframework.core.env.Environment;

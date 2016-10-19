@@ -2,19 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0c10e26-b973-4522-b9f3-26c481fdc2ac" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/pom.xml" afterPath="$PROJECT_DIR$/website/pom.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/collections/DBCursorValues.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/xml/GengerateXml.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/crypto/AES.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/crypto/AES.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/crypto/HMAC.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/crypto/HMAC.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/crypto/RSA.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/crypto/RSA.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/crypto/Signature.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/crypto/Signature.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/database/DBSwitch.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/database/DBSwitch.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/database/DBSwitchAdvisor.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/database/DBSwitchAdvisor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/database/HibernateAccess.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/database/HibernateAccess.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/database/HibernateQuery.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/database/HibernateQuery.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/database/JDBCAccess.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/database/JDBCAccess.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/database/JDBCAccessFactory.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/database/JDBCAccessFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/database/JPAAccess.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/database/JPAAccess.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/database/JPAQuery.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/database/JPAQuery.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/database/RowMapper.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/database/RowMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/database/Switch.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/database/Switch.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/exception/BusinessProcessException.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/exception/BusinessProcessException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/exception/InvalidRequestException.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/exception/InvalidRequestException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/exception/RemoteServerInternalException.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/exception/RemoteServerInternalException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/exception/ResourceNotFoundException.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/exception/ResourceNotFoundException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/exception/RuntimeIOException.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/exception/RuntimeIOException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/exception/TypeConversionException.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/exception/TypeConversionException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/exception/UserAuthorizationException.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/exception/UserAuthorizationException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/interceptor/AnnotatedMethodAdvisor.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/interceptor/AnnotatedMethodAdvisor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/interceptor/SystemInterceptor.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/interceptor/SystemInterceptor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/log/LogConstants.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/log/LogConstants.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/log/LogFilter.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/log/LogFilter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/log/LoggingEventProcessor.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/log/LoggingEventProcessor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/log/RequestWrapper.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/log/RequestWrapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/log/TraceAppender.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/log/TraceAppender.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/log/TraceLogger.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/log/TraceLogger.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/utils/AssertUtils.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/utils/AssertUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/utils/BeanUtils.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/utils/BeanUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/utils/Convert.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/utils/Convert.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/utils/DateConverter.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/utils/DateConverter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/utils/DateFormatUtils.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/utils/DateFormatUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/utils/DateUtils.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/utils/DateUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/utils/DigestUtils.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/utils/DigestUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/utils/IOUtils.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/utils/IOUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/utils/IntByteConvertor.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/utils/IntByteConvertor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/utils/KeywordFilterUtils.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/utils/KeywordFilterUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/utils/NumberConverter.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/utils/NumberConverter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/utils/PasswordUtils.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/utils/PasswordUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/utils/ReadOnly.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/utils/ReadOnly.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/utils/StopWatch.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/utils/StopWatch.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/utils/StringUtils.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/utils/StringUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/utils/TimeLength.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/utils/TimeLength.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/utils/TokenGen.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/utils/TokenGen.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/web/DefaultWebConfig.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/web/DefaultWebConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/web/FrameWorkRestController.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/web/FrameWorkRestController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/web/page/PageModel.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/web/page/PageModel.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/web/request/RemoteAddress.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/web/request/RemoteAddress.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/web/request/RequestContext.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/web/request/RequestContext.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/web/request/RequestContextInterceptor.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/web/request/RequestContextInterceptor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/web/request/RequestIdValidator.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/web/request/RequestIdValidator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/xml/DOMUtils.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/xml/DOMUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/xml/DocumentEntity.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/xml/DocumentEntity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/xml/ParmsEntity.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/xml/ParmsEntity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/xml/XMLBinder.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/xml/XMLBinder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/xml/XMLBuilder.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/xml/XMLBuilder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/xml/XMLException.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/xml/XMLException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/xml/XMLParser.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/xml/XMLParser.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/u1wan/core/xml/XPathUtils.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/xml/XPathUtils.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/src/main/java/com/jrobot/website/DBConfigure.java" afterPath="$PROJECT_DIR$/website/src/main/java/com/jrobot/website/DBConfigure.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/src/main/java/com/jrobot/website/WebConfigure.java" afterPath="$PROJECT_DIR$/website/src/main/java/com/jrobot/website/WebConfigure.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/src/main/java/com/jrobot/website/demo/repository/DemoRepository.java" afterPath="$PROJECT_DIR$/website/src/main/java/com/jrobot/website/demo/repository/DemoRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/src/main/java/com/jrobot/website/demo/service/DemoService.java" afterPath="$PROJECT_DIR$/website/src/main/java/com/jrobot/website/demo/service/DemoService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/src/main/java/com/jrobot/website/demo/web/DemoController.java" afterPath="$PROJECT_DIR$/website/src/main/java/com/jrobot/website/demo/web/DemoController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/src/main/java/com/jrobot/website/demo/web/response/User.java" afterPath="$PROJECT_DIR$/website/src/main/java/com/jrobot/website/demo/web/response/User.java" />
     </list>
     <ignored path="jrobot.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,78 +91,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="WebConfigure.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/website/src/main/java/com/jrobot/website/WebConfigure.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-              <folding>
-                <element signature="e#768#769#0" expanded="true" />
-                <element signature="e#814#815#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DemoRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/website/src/main/java/com/jrobot/website/demo/repository/DemoRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DemoService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/website/src/main/java/com/jrobot/website/demo/service/DemoService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/website/src/main/java/com/jrobot/website/demo/web/response/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="28" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="HibernateAccess.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/u1wan/core/database/HibernateAccess.java">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/jrobot/core/database/HibernateAccess.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="72" column="23" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="JDBCAccess.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/u1wan/core/database/JDBCAccess.java">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/jrobot/core/database/JDBCAccess.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="332">
-              <caret line="128" column="47" selection-start-line="128" selection-start-column="47" selection-end-line="128" selection-end-column="47" />
+              <caret line="128" column="40" selection-start-line="128" selection-start-column="30" selection-end-line="128" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,11 +113,81 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="site-jdbc.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/website/src/main/resources/site-jdbc.properties">
+      <file leaf-file-name="DOMUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/jrobot/core/xml/DOMUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            <state relative-caret-position="60">
+              <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DocumentEntity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/jrobot/core/xml/DocumentEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParmsEntity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/jrobot/core/xml/ParmsEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XMLBinder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/jrobot/core/xml/XMLBinder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XMLBuilder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/jrobot/core/xml/XMLBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XMLException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/jrobot/core/xml/XMLException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XMLParser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/jrobot/core/xml/XMLParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XPathUtils.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/jrobot/core/xml/XPathUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -166,6 +231,13 @@
         <option value="$PROJECT_DIR$/website/src/main/java/com/jrobot/website/demo/service/DemoService.java" />
         <option value="$PROJECT_DIR$/website/src/main/java/com/jrobot/website/demo/repository/DemoRepository.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/database/JDBCAccess.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/xml/DOMUtils.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/xml/XMLBinder.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/xml/XMLBuilder.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/xml/XMLException.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/xml/XMLParser.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/jrobot/core/xml/XPathUtils.java" />
       </list>
     </option>
   </component>
@@ -272,11 +344,104 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jrobot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jrobot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jrobot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jrobot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jrobot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jrobot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../bigdata/data-clouds" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -465,6 +630,9 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.gitignore" />
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -508,15 +676,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/u1wan/core/collections/DBCursorValues.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/u1wan/core/crypto/AES.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/jrobot/core/crypto/AES.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
@@ -524,15 +684,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/u1wan/core/database/DBSwitch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/u1wan/core/database/DBSwitchAdvisor.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/jrobot/core/database/DBSwitchAdvisor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
@@ -540,7 +692,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/u1wan/core/interceptor/SystemInterceptor.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/jrobot/core/interceptor/SystemInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
@@ -548,7 +700,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/u1wan/core/interceptor/AnnotatedMethodAdvisor.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/jrobot/core/interceptor/AnnotatedMethodAdvisor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
@@ -564,7 +716,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/u1wan/core/database/JDBCAccessFactory.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/jrobot/core/database/JDBCAccessFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
           <caret line="31" column="20" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="20" />
@@ -588,7 +740,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/u1wan/core/web/DefaultWebConfig.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/jrobot/core/web/DefaultWebConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="47">
           <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
@@ -620,17 +772,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/u1wan/core/log/TraceAppender.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/jrobot/core/log/TraceAppender.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/u1wan/core/log/TraceLogger.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/jrobot/core/log/TraceLogger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
@@ -646,25 +798,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/u1wan/core/log/RequestWrapper.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/jrobot/core/log/RequestWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="362">
           <caret line="61" column="17" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
           <folding>
-            <element signature="e#1824#1825#0" expanded="true" />
-            <element signature="e#1860#1861#0" expanded="true" />
-            <element signature="e#1914#1915#0" expanded="true" />
-            <element signature="e#1950#1951#0" expanded="true" />
+            <element signature="e#1826#1827#0" expanded="false" />
+            <element signature="e#1862#1863#0" expanded="false" />
+            <element signature="e#1916#1917#0" expanded="false" />
+            <element signature="e#1952#1953#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/u1wan/core/web/request/RequestContextInterceptor.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/jrobot/core/web/request/RequestContextInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="43" column="43" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -673,24 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="79" column="11" selection-start-line="79" selection-start-column="11" selection-end-line="79" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/u1wan/core/database/JDBCAccess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="128" column="47" selection-start-line="128" selection-start-column="47" selection-end-line="128" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/u1wan/core/database/HibernateAccess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -743,7 +877,7 @@
         <state relative-caret-position="250">
           <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -766,20 +900,126 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/u1wan/core/collections/DBCursorValues.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/jrobot/core/database/DBSwitch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/website/src/main/java/com/jrobot/website/demo/repository/DemoRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+        <state relative-caret-position="197">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/jrobot/core/database/HibernateAccess.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        <state relative-caret-position="90">
+          <caret line="72" column="23" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/jrobot/core/database/JDBCAccess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="128" column="40" selection-start-line="128" selection-start-column="30" selection-end-line="128" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/jrobot/core/xml/DOMUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/jrobot/core/xml/DocumentEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/jrobot/core/xml/GengerateXml.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-718">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/jrobot/core/xml/ParmsEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/jrobot/core/xml/XMLBinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/jrobot/core/xml/XMLBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/jrobot/core/xml/XMLException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/jrobot/core/xml/XMLParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/jrobot/core/xml/XPathUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
           <folding />
         </state>
       </provider>

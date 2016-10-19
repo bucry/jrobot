@@ -1,8 +1,8 @@
 package com.jrobot.website.demo.repository;
 
 import com.jrobot.website.demo.web.response.User;
-import com.u1wan.core.database.HibernateAccess;
-import com.u1wan.core.database.JDBCAccess;
+import com.jrobot.core.database.HibernateAccess;
+import com.jrobot.core.database.JDBCAccess;
 import org.springframework.stereotype.Repository;
 
 import javax.inject.Inject;
